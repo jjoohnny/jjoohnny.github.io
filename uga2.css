@@ -1,0 +1,62 @@
+
+#business {
+  background-image: url(images/Flashstar.gif);
+}
+#aboutme1 {
+    background-color: cornflowerblue;
+    font-size: 15px;
+}
+
+#list {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+.navbar {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+  }
+  .center {
+    text-align: center;
+    border: 3px solid black;
+    background-color: #dddddd;
+  }
+  .centernoborder {
+    text-align: center;
+  }
+  li a:hover {
+    background-color:cadetblue ;
+   }
+#aboutme {
+  font-size: 22px;
+}
+#list {
+  font-family: 'Courier New', Courier, monospace;
+}
+#lawnmowing {
+  font-size: 22px;
+}
+#aspire {
+  font-size: 22px;
+  white-space: nowrap;
+}
+
+.lawnmowing {
+  color: #dddddd;
+}
+#aboutme1 {
+  background: cornflowerblue;
+}
+#explosion {
+  float: left;
+}
+#mower {
+  float: right;
+}

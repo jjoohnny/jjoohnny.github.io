@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+body{
+    color: white;
+    background-image: url(images/spuare.gif);
+    font-family: 'Courier New', Courier, monospace;
+}
+/* for some reason the body doesnt override??? */
+img{
+
+    width: 125px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    font-size: 32px;
+}
+/* # focuses on the id . focuses on the class */
+#demo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#gang{
+    color: brown;
+}
+#b{
+    image-rendering: crisp-edges;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+  }
+  li a:hover {
+   background-color:cadetblue ;
+  }
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+
+  .center {
+    text-align: center;
+    border: 3px solid black;
+  }
+  .centernoborder {
+    text-align: center;
+  }
+
+#marquee {
+    font-size: 22px;
+}
+#welcome {
+    font-family: 'Kanit', sans-serif;
+    font-size: 39px;
+    color: black;
+    background-color: #dddddd;
+}
